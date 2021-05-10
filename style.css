@@ -1,0 +1,126 @@
+body{
+    font-family: "proxima nova", Helvetica,Arial,sans-serif;
+    --home-color:#F4F4F4;
+    --fundo-card: #FFFFFF;
+    --descricao: #A0A0A0;
+    display: block;
+}
+
+#buzzfeed{
+    background-color: var(--fundo-card);
+    color: #ee3322;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+
+#home{
+    background-color: var(--home-color);
+}
+
+
+.content{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.post-card{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: var(--fundo-card);
+    border-radius: 10px;
+    width: 700px;
+    height: 200px;
+    box-shadow: 0px 3px 8px -3px rgb(0 0 0 / 20%);
+}
+.post-info{
+    margin-left: 20px;
+}
+
+.author-info{
+    display: flex;
+    margin: 0px;
+    
+    
+}
+.author-image{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.header{
+    width: 259px;
+    height: 168px;
+}
+
+.social-media{
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--fundo-card);
+    width: 320px;
+    height: 280px;
+    margin-bottom: 40px;
+
+}
+
+.author-name-post-date .name{
+   color: #000000;
+}
+
+.social{
+    margin-bottom: 20px;
+    color: #000000;
+    display: block;
+    font-size: 16px;
+}
+
+.social-buttons{
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.facebook{
+    padding: 10px;
+    background-color: #3A5998;
+    margin-top: 20px;
+}
+
+.twitter{
+    padding: 10px;
+    background-color: #55ACEE;
+    margin-top: 20px;
+}
+
+.youtube{
+    padding: 10px;
+    background-color: #FF0200;
+    margin-top: 20px;
+}
+
+.instagram{
+    padding: 10px;
+    background: linear-gradient(45deg, #f09433 0%,#e6493c 25%,#dc2743 50%,#a509af 75%,#6d09af 100%);
+    margin-top: 20px;
+}
+
+p{
+    color: var(--descricao);
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 45px;
+}
